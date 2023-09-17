@@ -11,11 +11,10 @@ export function App() {
 
 // Example 2: Conditional Rendering of Component
 
-import React from 'react';
-import AdminDashboard from './AdminDashboard';
-import UserDashboard from './UserDashboard';
 
-function App() {
+
+
+function App1() {
   const isAdmin = true;
 
   return (
@@ -30,9 +29,9 @@ function App() {
 
 // Example 3: Conditional Rendering of Styles
 
-import React from 'react';
 
-function App() {
+
+function App2() {
   const isHighlighted = true;
 
   return (
@@ -51,7 +50,7 @@ function App() {
 
 
 
-function App() {
+function App3() {
   const showList = true;
   const items = ['Item 1', 'Item 2', 'Item 3'];
 
@@ -73,9 +72,9 @@ function App() {
 
 // Example 5: Conditional Rendering with Function Calls
 
-import React from 'react';
 
-function App() {
+
+function App4() {
   const isMorning = true;
 
   const greet = () => {
