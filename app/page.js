@@ -7,12 +7,24 @@ import {App} from "./components/Conditional_Rendering"
 import Interactivity from "./components/interactivity";
 import Form from "./components/form";
 
-export default function Homemade() {
+import Header from "./components/Header";
+import MainSection from "./components/MainSection";
+import Footer from "./components/Footer";
+
+
+const Home = () => {
   return (
+
     <div>
-      <p>Hello</p>
+    <Header />
+    <MainSection />
+    <Footer />
     </div>
-  )
     
-      
-}
+  );
+};
+
+export default Home;
+
+
+
