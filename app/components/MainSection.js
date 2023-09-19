@@ -1,8 +1,5 @@
 import React from "react";
 
-
-
-
 export default function MainSection() {
   return (
     <main className="py-8">
@@ -10,7 +7,7 @@ export default function MainSection() {
         {/* First section */}
         <div className="w-full md:w-1/2 p-4">
           <img
-            src="/images/image1.jpg" // Replace with your image path
+            src="/images/image1.jpg" 
             alt="Left Image"
             className="w-half h-auto rounded-lg"
           />
@@ -31,10 +28,10 @@ export default function MainSection() {
             justo eu urna vulputate dignissim.
           </p>
         </div>
-        
+
         <div className="w-half md:w-1/2 p-4 order-first md:order-last">
           <img
-             src=" /images/image1.jpg" // Replace with your image path
+            src=" /images/image1.jpg" 
             alt="Right Image"
             className="w-half h-auto rounded-lg"
           />
