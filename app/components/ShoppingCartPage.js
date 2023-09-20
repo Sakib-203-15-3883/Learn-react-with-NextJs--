@@ -11,6 +11,7 @@ export default function ShoppingCart({ initialItems }) {
   return (
     <div className="bg-white rounded-lg shadow-md p-4">
       <h2 className="text-xl font-semibold mb-4 grid place-content-center">Shopping Cart</h2>
+      
       {cartItems.map((item) => (
         <div key={item.id} className="mb-4 flex items-center justify-between">
           <p className="text-lg text-gray-800">{item.name}</p>
