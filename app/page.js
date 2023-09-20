@@ -16,6 +16,10 @@ import cardData from "./components/cardData";
 import Card from "./components/card";
 console.log(Card);
 
+import {user,initialItems} from "./components/data";
+import UserProfile from "./components/UserProfile";
+import ShoppingCartPage from "./components/ShoppingCartPage";
+
 // console.log(cardData);
 
 const Home = () => {
@@ -37,6 +41,14 @@ const Home = () => {
       </div>
 
       {/* Displaying Cards End  */}
+
+    {/* Displaying User Information Conditionally with Click Event */}
+
+    <UserProfile user ={user}/>
+
+    {/* ShoppingCart Component */}
+
+    <ShoppingCartPage initialItems ={initialItems} />
 
       <Footer />
     </div>
