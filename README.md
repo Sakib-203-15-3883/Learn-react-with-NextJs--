@@ -17,3 +17,8 @@
    
     ii. Example: We can create 1 card component and dynamically update and pass props as card data for different cards and render those cards into a page with the help of a data file and map method.
         We need to change only that data file and the card will be added and updated 
+
+6. Conditional Randaring : Randare UI based on condition 
+
+7. State , useState Hook
+8. Event Lisner [ change the state throuh the event lisner and then conditionally render react element ]
