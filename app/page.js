@@ -20,6 +20,8 @@ import {user,initialItems} from "./components/data";
 import UserProfile from "./components/UserProfile";
 import ShoppingCartPage from "./components/ShoppingCartPage";
 
+import ShoppingList from "./components/ShoppingList";
+
 // console.log(cardData);
 
 const Home = () => {
@@ -49,6 +51,11 @@ const Home = () => {
     {/* ShoppingCart Component */}
 
     <ShoppingCartPage initialItems ={initialItems} />
+
+    {/* ShoppingList */}
+    <div className="App">
+      <ShoppingList />
+    </div>
 
       <Footer />
     </div>
