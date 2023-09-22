@@ -21,7 +21,7 @@ import UserProfile from "./components/UserProfile";
 import ShoppingCartPage from "./components/ShoppingCartPage";
 
 import ShoppingList from "./components/ShoppingList";
-
+import WeatherApp from "./components/weatherApp";
 // console.log(cardData);
 
 const Home = () => {
@@ -56,7 +56,9 @@ const Home = () => {
     <div className="App">
       <ShoppingList />
     </div>
+{/* weather app to learn useEffect */}
 
+<WeatherApp/>
       <Footer />
     </div>
   );
