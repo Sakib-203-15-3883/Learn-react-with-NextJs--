@@ -24,4 +24,5 @@
 8. Event Lisner [ change the state throuh the event lisner and then conditionally render react element ]
 
 9. state as array ( ShoppingList component )
-    i. it has add items and delete items funtionality 
+    i. it has add items and delete items funtionality
+10. useEffect explained  with weather api 
