@@ -22,3 +22,6 @@
 
 7. State , useState Hook
 8. Event Lisner [ change the state throuh the event lisner and then conditionally render react element ]
+
+9. state as array ( ShoppingList component )
+    i. it has add items and delete items funtionality 
